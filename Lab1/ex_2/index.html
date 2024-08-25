@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 2</title>
+  <link rel="stylesheet" href="./style/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="game">
+    <div class="statistics">
+      <div
+        class="w-full bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+        <div class="flex items-center justify-between mb-4">
+          <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white">Players</h5>
+        </div>
+        <div class="flow-root">
+          <ul id="playersList" role="list" class="divide-y divide-gray-200 dark:divide-gray-700">
+          </ul>
+        </div>
+      </div>
+      <button id="rollDice" type="button"
+        class="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 btn">Roll</button>
+    </div>
+    <div class="board">
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+  <script src="./script/script.js"></script>
+</body>
+
+</html>
