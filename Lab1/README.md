@@ -40,8 +40,10 @@ This is a simple web-based dice game where multiple players compete to score the
 
 Check out a video demonstration of the game in action:
 
-[![Watch the video](../Lab1/docs/lab1-ex2-video.mp4)](../Lab1/docs/lab1-ex2-video.mp4)
-[![Watch the video](https://youtu.be/EAVZAPzzfKg/)](https://youtu.be/EAVZAPzzfKg/)
+<video width="600" controls>
+  <source src="https://youtu.be/EAVZAPzzfKg/" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## 🚀 How to Play
 
