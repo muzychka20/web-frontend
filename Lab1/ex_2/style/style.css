@@ -1,21 +1,30 @@
 .game {
   height: 100vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 150px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .statistics {
-  width: 40%;
+  width: 500px;  
 }
 
 .board {
-  width: 40%;
+  width: 500px;  
 }
 
 .btn {
   width: 100%;
   margin-top: 20px;
+}
+
+.empty, .empty:hover {
+  background: #fff;
+  box-shadow: none;
+  border: 1px solid rgba(144, 97, 249, .5);
+  color: rgba(22, 0, 69, 0.5);
 }
 
 .active {
