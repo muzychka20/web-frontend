@@ -32,7 +32,7 @@ function checkEndGame() {
   if (round > finRound) {
     let winnerPoints = Math.max(...players.map((player) => player.points));
     setWinner(
-      `Name winner is <b>${
+      `<br>Name winner is <b>${
         players.find((p) => p.points == winnerPoints).name
       }</b> with points: <b>${winnerPoints}</b>`
     );

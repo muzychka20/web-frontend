@@ -36,3 +36,29 @@
   border: 2px solid #000;
   height: 500px;
 }
+
+.round-info {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #4B5563;
+  text-align: center;
+}
+
+.winner-info {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #10B981;
+  margin: 20px 0;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;  
+  /* position: absolute; */
+}
+
+.info {
+  background: #F9FAFB;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px 0px;  
+}

@@ -26,10 +26,12 @@
         class="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 btn">Roll</button>
       <button id="reset" type="button"
         class="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 btn">Reset</button>
-      <h3>Round: <span id="currentRound"></span> of <span id="maxRound"></span> </h3>
-      <h3 id="winner"></h3>
+      <div class="info">
+        <h3 class="round-info">Round: <span id="currentRound"></span> of <span id="maxRound"></span><span id="winner"
+            class="winner-info"></span></h3>
+      </div>
     </div>
-    <div class="board">      
+    <div class="board">
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
