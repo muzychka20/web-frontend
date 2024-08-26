@@ -36,6 +36,12 @@ This is a simple web-based dice game where multiple players compete to score the
 
 ![Game Screenshot](../Lab1/docs/lab1_ex_2_photo.png)
 
+## 🎥 Video Demonstration
+
+Check out a video demonstration of the game in action:
+
+[![Watch the video](../Lab1/docs/lab1-ex2-video.mp4)](../Lab1/docs/lab1-ex2-video.mp4)
+
 ## 🚀 How to Play
 
 1. **Set Up Players**: The game starts by asking the user for the number of players and their names.
