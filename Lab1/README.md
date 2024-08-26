@@ -63,22 +63,6 @@ Check out a video demonstration of the game in action:
 - CSS (including Tailwind for styling)
 - JavaScript
 
-## 📦 How to Run
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/your-username/dice-game.git
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd dice-game
-    ```
-
-3. Open `index.html` in your browser.
-
 ## 📸 Media
 
 Enjoy the game and happy rolling! 🎉
