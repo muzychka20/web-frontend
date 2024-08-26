@@ -32,18 +32,11 @@ Enjoy experimenting with this simple web application!
 
 This is a simple web-based dice game where multiple players compete to score the highest points after a set number of rounds. The game features an interactive dice roll animation, player management, and dynamic score tracking.
 
-## 🖼️ Screenshot
-
-![Game Screenshot](../Lab1/docs/lab1_ex_2_photo.png)
-
 ## 🎥 Video Demonstration
 
 Check out a video demonstration of the game in action:
 
-<video width="600" controls>
-  <source src="https://youtu.be/EAVZAPzzfKg/" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Watch the video](../Lab1/docs/lab1_ex_2_photo.png)](https://www.youtube.com/watch?v=EAVZAPzzfKg)
 
 ## 🚀 How to Play
 
