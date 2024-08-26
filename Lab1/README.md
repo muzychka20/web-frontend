@@ -41,7 +41,7 @@ This is a simple web-based dice game where multiple players compete to score the
 Check out a video demonstration of the game in action:
 
 [![Watch the video](../Lab1/docs/lab1-ex2-video.mp4)](../Lab1/docs/lab1-ex2-video.mp4)
-[![Watch the video](../Lab1/docs/lab1_ex_2_photo.png)](https://youtu.be/EAVZAPzzfKg/)
+[![Watch the video](https://youtu.be/EAVZAPzzfKg/)](https://youtu.be/EAVZAPzzfKg/)
 
 ## 🚀 How to Play
 
