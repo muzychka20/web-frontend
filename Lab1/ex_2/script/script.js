@@ -58,7 +58,7 @@ function loadPlayers() {
           </div>
           <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
               ${players[index].points}
-          </div>
+          </div>          
         </div>`;
     document.getElementById("playersList").appendChild(item);
   }
@@ -82,31 +82,76 @@ function setPlayers() {
   }
 }
 
+function rollDiceAnimation(rand) {
+  return new Promise((resolve) => {
+    let dice = document.querySelector(".dice");
+    dice.style.animation = "rolling 4s";
+    setTimeout(() => {
+      let str = "";
+      switch (rand) {
+        case 1:
+          str = "rotateX(0deg) rotateY(0deg)";
+          break;
+        case 6:
+          str = "rotateX(180deg) rotateY(0deg)";
+          break;
+        case 2:
+          str = "rotateX(-90deg) rotateY(0deg)";
+          break;
+        case 5:
+          str = "rotateX(90deg) rotateY(0deg)";
+          break;
+        case 3:
+          str = "rotateX(0deg) rotateY(90deg)";
+          break;
+        case 4:
+          str = "rotateX(0deg) rotateY(-90deg)";
+          break;
+      }
+      dice.style.transform = str;
+      dice.style.animation = "none";
+      resolve();
+    }, 4050);
+  });
+}
+
 window.addEventListener("load", (_) => {
   setPlayers();
   loadPlayers();
   loadRound();
 });
 
-document.getElementById("rollDice").addEventListener("click", () => {
-  players[currentPlayer].points += getRandomArbitrary(MIN, MAX);
+document.getElementById("rollDice").addEventListener("click", async () => {
+  let rollDiceBtn = document.getElementById("rollDice");
+  let resetBtn = document.getElementById("reset");
+
+  rollDiceBtn.disabled = true;
+  resetBtn.disabled = true;
+
+  let random = getRandomArbitrary(MIN, MAX);
+  await rollDiceAnimation(random);
+
+  players[currentPlayer].points += random;
   nextPlayer();
   nextRound();
   loadPlayers();
   loadRound();
-  if (checkEndGame()) {    
-    let rollDice = document.getElementById("rollDice");
-    rollDice.classList.add("empty")
-    rollDice.disabled = true;
+
+  rollDiceBtn.disabled = false;
+  resetBtn.disabled = false;
+
+  if (checkEndGame()) {
+    rollDiceBtn.classList.add("empty");
+    rollDiceBtn.disabled = true;
   }
 });
 
 document.getElementById("reset").addEventListener("click", () => {
   setDefault();
   loadPlayers();
-  loadRound();  
+  loadRound();
   setWinner("");
   let rollDice = document.getElementById("rollDice");
-  rollDice.classList.remove("empty")
+  rollDice.classList.remove("empty");
   rollDice.disabled = false;
 });

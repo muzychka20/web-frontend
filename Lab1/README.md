@@ -27,3 +27,56 @@ This lab exercise is focused on building a simple interactive web page using HTM
 Simply open the `index.html` file in your browser to see the interactive switch in action.
 
 Enjoy experimenting with this simple web application!
+
+# Exercise 2 - Dice Game 🎲
+
+This is a simple web-based dice game where multiple players compete to score the highest points after a set number of rounds. The game features an interactive dice roll animation, player management, and dynamic score tracking.
+
+## 🖼️ Screenshot
+
+![Game Screenshot](../Lab1/docs/lab1_ex_2_photo.png)
+
+## 🚀 How to Play
+
+1. **Set Up Players**: The game starts by asking the user for the number of players and their names.
+2. **Rolling the Dice**: Each player takes turns rolling the dice by clicking the "Roll" button.
+3. **Scoring**: The player’s score increases by the number shown on the dice.
+4. **Winning**: After the predefined number of rounds, the player with the highest score wins.
+
+## ✨ Features
+
+- Smooth dice roll animation
+- Player management (adding names, tracking scores)
+- Rounds and turn management
+- Automatic winner announcement and game reset
+
+## 📜 Code Highlights
+
+- JavaScript handles game logic, including player turns, round progression, and score calculation.
+- Dice roll animation is powered by CSS transitions and keyframe animations.
+
+## 🛠️ Tech Stack
+
+- HTML
+- CSS (including Tailwind for styling)
+- JavaScript
+
+## 📦 How to Run
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your-username/dice-game.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd dice-game
+    ```
+
+3. Open `index.html` in your browser.
+
+## 📸 Media
+
+Enjoy the game and happy rolling! 🎉
