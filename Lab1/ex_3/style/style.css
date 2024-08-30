@@ -5,10 +5,11 @@ body {
 
 .container {
   display: flex;
-  justify-content: center;
-  height: 100vh;
-  align-items: center;
   gap: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .navigation {
@@ -46,9 +47,8 @@ body {
   cursor: pointer;
 }
 
-.board {
-  width: 400px;
-  height: 400px;
+.canvas {  
   border: 2px solid blue;
   border-radius: 5px;
+  overflow: scroll;
 }
