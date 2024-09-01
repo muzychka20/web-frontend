@@ -1,6 +1,7 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: #f0f0f0;
 }
 
 .container {
@@ -10,6 +11,10 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .navigation {
@@ -29,26 +34,28 @@ body {
   align-items: center;
   justify-content: center;
   color: aliceblue;
-  background: rgb(60, 131, 255);
+  background: linear-gradient(135deg, #3c83ff, #73a4ff);
   height: 100px;
   width: 100px;
   border-radius: 50%;
   margin: 15px;
   font-size: 60px;
   transition: 0.4s ease;
-}
-
-.navigation_horizontal {
-  position: relative;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .arr:hover {
-  box-shadow: 0px 0px 20px 20px rgba(225, 225, 225, 0.541);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
   cursor: pointer;
+  transform: scale(1.1);
 }
 
-.canvas {  
-  border: 2px solid blue;
-  border-radius: 5px;
-  overflow: scroll;
+.canvas {
+  display: block;
+  border: 2px solid rgb(152, 197, 252);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25),
+    0px 6px 6px rgba(0, 0, 0, 0.22);
+  background-color: #d9ffb8;
 }
