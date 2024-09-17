@@ -3,7 +3,7 @@
 
 This exercise is about creating an interactive drawing application where users can draw lines and points on a canvas element by navigating in different directions using buttons. The project demonstrates the use of HTML, CSS, and JavaScript to build a dynamic and visually appealing web page.
 
-![Steps](../Lab1/docs/lab1_ex_1_photo.png)
+![Steps](../Lab2/docs/lab1_ex_1_photo.png)
 
 ## 🚀 How It Works
 
