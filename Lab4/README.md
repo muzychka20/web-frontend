@@ -2,8 +2,8 @@
 
 Implementing a Contact Form with Submission and Thank You Page
 In this lab, you will create a React application that includes the following:
-- **Contact Page with a form that allows users to input:**
-- **Form Submission:**
+- **Contact Page with a form that allows users to input**
+- **Form Submission**
 
 ![Lab4](./docs/screen1.png)
 
