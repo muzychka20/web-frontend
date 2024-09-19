@@ -1,0 +1,28 @@
+.conntacts_list {
+    margin: 10px 0 20px 0;
+}
+
+.conntacts_list>li {
+    margin-top: 5px;
+}
+
+.socials {
+    display: flex;
+    margin-top: 10px;
+}
+
+.photo {
+    display: block;
+    margin: auto;
+    border-radius: 100px;
+    width: 200px;
+    margin-bottom: 40px;
+}
+
+.connect_btn {
+    margin-top: 300px;
+}
+
+.connect_btn>a {
+    width: 100%;
+}
