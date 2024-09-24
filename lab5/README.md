@@ -2,11 +2,15 @@
 
 This project is a React application that fetches and displays football leagues using the Football API from RapidAPI. Users can view a list of leagues and click on them to see more details.
 
+![List](../lab5/docs/list.png)
+
 ## Features
 
 - Display a list of football leagues.
 - Clickable links to view league details.
 - Responsive design with a clean UI.
+
+![List](../lab5/docs/details.png)
 
 ## Technologies Used
 
