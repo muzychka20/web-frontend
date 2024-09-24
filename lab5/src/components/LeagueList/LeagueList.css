@@ -1,0 +1,73 @@
+.league-list {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 40px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.league-item {
+  list-style: none;
+  margin: 10px 0;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.league-item:hover {
+  background-color: #e9ecef;
+  transform: scale(1.02);
+}
+
+.league-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.league-link:hover {
+  text-decoration: underline;
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination-button:hover {
+  background-color: #0056b3;
+}
+
+.pagination-button.active {
+  background-color: #0056b3; /* Active button color */
+}
+
+.pagination-arrow {
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination-arrow:hover {
+  background-color: #0056b3;
+}
