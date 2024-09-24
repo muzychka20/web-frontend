@@ -1,0 +1,71 @@
+.league-card {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.league-header-country {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.league-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 15px;
+}
+
+.league-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.league-body {
+    padding-top: 15px;
+}
+
+.league-info {
+    margin-bottom: 20px;
+}
+
+.league-info p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.country-flag {
+    width: 30px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.league-coverage {
+    margin-top: 20px;
+}
+
+.league-coverage h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.league-coverage ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.league-coverage li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
