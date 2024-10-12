@@ -8,3 +8,4 @@ This repository contains lab work for the course "Web Application Development Te
 - [Lab3](./Lab3/README.md)
 - [Lab4](./Lab4/README.md)
 - [Lab5](./lab5/README.md)
+- [Lab6](./Lab6/README.md)
