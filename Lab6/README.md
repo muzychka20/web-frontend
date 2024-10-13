@@ -2,7 +2,7 @@
 
 This repository provides a full-stack application for managing users, developed with a **React** frontend and **ASP.NET Core** backend. It supports features like user creation, updating, deletion, and display of user data.
 
-![Image1](../lab6/docs/image1.png)
+![Image1](../Lab6/docs/image1.png)
 
 ## Features
 
@@ -13,7 +13,7 @@ This repository provides a full-stack application for managing users, developed 
 - Users are displayed in a list, each showing their **first name**, **last name**, **email**, and **photo**.
 - **Props-based Components**: Modular React components such as `CardTitle`, `Users`, and `CreateUpdateUser` ensure reusability and clarity.
 
-![Image2](../lab6/docs/image2.png)
+![Image2](../Lab6/docs/image2.png)
 
 ### Backend:
 - Developed using **ASP.NET Core** with **Entity Framework Core** for database operations.
